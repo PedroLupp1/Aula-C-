@@ -1,0 +1,14 @@
+int[] num = new int[10];
+            double soma=0, receitaFinal, div=0;
+
+            for (int i = 0; i < 10; i++)
+            {
+                Console.WriteLine("Digite o valor da conta: ");
+                num[i] = int.Parse(Console.ReadLine());
+                
+                    soma = num[i] + soma;
+                    div++;
+                
+            }
+            receitaFinal = soma / div;
+            Console.WriteLine("A receita final é: " + receitaFinal);
