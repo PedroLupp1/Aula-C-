@@ -1,0 +1,20 @@
+int[] v = new int[10];
+            double contador = 0;
+
+            for (int i = 0; i < v.Length; i++)
+            {
+                Console.WriteLine("digite um numero");
+                v[i] = int.Parse(Console.ReadLine());
+                contador= v[i];
+                if (v[i] < 0) {
+                    
+                    v[i] = 0;
+                    Console.WriteLine("O numero negativo virou: 0");
+                }
+                
+                
+            }
+            for(int i = 0; i < v.Length; i++)
+            {
+                Console.WriteLine(v[i]);    
+            }
